@@ -1,0 +1,16 @@
+{
+  "name": "webcomp",
+  "version": "1.0.0",
+  "description": "web components with D3",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vsundesha <me.vicky@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^5.7.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
