@@ -10,12 +10,24 @@
 
 <body>
 
-    <div>
-        <my-chart></my-chart>
-    </div>
 
-    <script src="dist/main.js"></script>
 
+    <my-chart id="one" h="500" w="500"></my-chart>
+    <!-- <my-chart id="two" l="100" c="red"></my-chart> -->
+
+    
+    <!-- <button onclick="remove()">click</button> -->
+    <!-- <button class="add">click</button> -->
+
+
+
+    <script src="build/build.js"></script>
+    <script>
+        setTimeout(() => {
+            update("one")
+        }, 3000);
+    </script>    
 </body>
+
 
 </html>
